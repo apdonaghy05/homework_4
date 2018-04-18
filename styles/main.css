@@ -1,5 +1,6 @@
 *{
   font-family:"calibri",sans-serif;
+  
 }
 
 body {
@@ -41,9 +42,9 @@ h1{
   color:white;
 /*  box-sizing: border-box;*/
   font-size: 4em;
-  font-weight: 100;
   margin: 0;
   padding:0;
+  font-weight: 100;
   
 }
 
@@ -51,8 +52,8 @@ h1{
   color:darkgrey;
 /*  box-sizing: border-box;*/
   font-size: 1.5em;
-  font-weight: 100;
   margin: 0;
+  font-weight: 100;
 }
 
 header {
@@ -71,6 +72,7 @@ header h1{
 header h3{
   text-align: left;
   margin-bottom:2rem;
+  font-weight: 100;
 }
 
 .push_left{
@@ -79,30 +81,30 @@ header h3{
 
 .big_link{
   font-size: 1.5em;
-  font-weight:100;
 }
 
 
 /*footer*/
 
 footer{
+  clear:both;
   padding-top:2rem;
   padding-bottom:1rem;
-  margin-top:2rem;
-  
-  
 }
+
 footer p{
   color:white;
   font-size:1.15em;
   box-sizing: border-box;
   padding:0;
   margin:0;
+  font-weight: 100;
   
 }
 
 .copyright{
   text-align:center;
+  
 }
 
 
@@ -149,4 +151,79 @@ nav a:active {
     color: forestgreen;
 }
 
+/*main*/
+main{
+  margin-top:2rem;
+  
+}
 
+article{
+  float:left;
+  width:25rem;
+  margin-right:3rem;
+  margin-bottom: 3rem;
+}
+
+aside{
+  float:left;
+  border:solid 1px black;
+  padding:1rem;
+  box-sizing: border-box;
+  width:17rem;
+  font-weight: 100;
+}
+
+
+article p{
+  font-size:1.25rem;
+  font-weight: 100;
+  line-height: 1.75rem;
+}
+
+h2{
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+
+h3{
+  font-weight: 400;
+  font-size:1.6rem;
+  text-align: center;
+   margin:0;
+  padding:0;
+  clear:both;
+}
+
+h4{
+  font-weight: 400;
+  font-size:1.4rem;
+  text-align: center;
+  margin:0 0 .4rem 0;
+  padding:0;
+}
+
+img{
+  margin-left:1rem;
+  margin-right:1rem;
+  
+}
+
+aside a{
+  float:right;
+}
+
+aside p{
+  float:left;
+  font-size:1.2rem;
+  margin:0;
+  width:9rem;
+}
+
+.testimonial{
+  font-style:italic;
+}
+
+.fan_fave{
+  margin-top:4rem;
+}
