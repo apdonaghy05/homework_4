@@ -171,7 +171,8 @@ aside{
   box-sizing: border-box;
   width:17rem;
   font-weight: 100;
-}
+  box-shadow: 3px 3px lightgrey;
+ }
 
 
 article p{
